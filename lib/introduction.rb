@@ -5,12 +5,17 @@
 
 
 
+def introduction(name)
+  puts "Hello #{name}!"
+end
 
+def introduction_with_language(name, language)
+  puts "Hello #{name}! You like #{language}"
+end
 
-
-
-
-
+def introduction_with_language_optional(name, language="english")
+  puts "Hello #{name}! You like #{language}"
+end
 
 
 
