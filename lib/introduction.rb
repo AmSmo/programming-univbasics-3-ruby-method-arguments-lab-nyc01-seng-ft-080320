@@ -6,15 +6,15 @@
 
 
 def introduction(name)
-  puts "Hello #{name}!"
+  puts "Hi, my name is #{name}."
 end
 
 def introduction_with_language(name, language)
-  puts "Hello #{name}! You like #{language}"
+  puts "Hi my name is #{name} and I am learning to program #{language}."
 end
 
 def introduction_with_language_optional(name, language="english")
-  puts "Hello #{name}! You like #{language}"
+  puts ""Hi my name is #{name} and I am learning to program #{language}."
 end
 
 
